@@ -13,21 +13,26 @@ namespace CalcAPP
         {
             InitializeComponent();
         }
-        //call the OnSelected Method/Functiom
+        //call the OnSelectNumber Method/Function
         void OnSelectNumber(object sender, EventArgs args)
         {
+            Button Clicked = (Button)sender;
+
         }
-        //call the on onSlectOperator Method/Functiom
+        //call the  OnSlectOperator Method/Function
         void OnSelectOperator(object sender, EventArgs args)
         {
+            Button Cliked = (Button)sender;
         }
-        //call the on OnClear Method/Functiom
+        //call the OnClear Method/Function
         void OnClear(object sender, EventArgs args)
         {
+            Button Click = (Button)sender;
         }
-        // call the on OnCalculate Method/Functiom
+        // call the  OnCalculate Method/Functiom
         void OnCalculate(object sender, EventArgs args)
         {
+            Button Cliked = (Button)sender;
         }
     }
 }
