@@ -32,7 +32,8 @@ LineBreakMode="NoWrap"
 Grid.ColumnSpan="4"></Label>
    <Button Text="7" Grid.Row="1" Grid.Column="0"
 BackgroundColor="White" TextColor="Black"
-Font="36" BorderRadius="0" Clicked="OnSelectNumber"/>
+Font="36" BorderRadius="0" Clicked="OnSelectNumber"
+   />
 <Button Text="8" Grid.Row="1" Grid.Column="1"
 BackgroundColor="White" TextColor="Black"
 Font="36" BorderRadius="0" Clicked="OnSelectNumber"/>
